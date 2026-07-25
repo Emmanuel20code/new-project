@@ -8,11 +8,7 @@
   "build": "vite build",
   "start": "serve -s dist -l $PORT"
 
-    "build": "tsc -b && vite build",
-    "test": "vitest run",
-    "lint": "eslint .",
-    "prettier-fix": "prettier --write .",
-    "prettier-check": "prettier --check ."
+   
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
