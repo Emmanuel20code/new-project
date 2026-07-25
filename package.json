@@ -40,7 +40,11 @@
     "tailwind-merge": "^3.6.0",
     "use-debounce": "^10.1.1",
     "vaul": "^1.1.2",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "dependencies": {
+  // ... other dependencies ...
+  "serve": "^14.2.0"
+}
   },
   "devDependencies": {
     "@convex-dev/eslint-plugin": "^1.2.2",
