@@ -3,12 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "serve -s dist -l $PORT"
-
-   
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
@@ -34,15 +32,12 @@
     "react-resizable-panels": "^4.11.2",
     "react-router-dom": "^7.18.0",
     "recharts": "3.8.0",
+    "serve": "^14.2.0",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.6.0",
     "use-debounce": "^10.1.1",
     "vaul": "^1.1.2",
-    "zod": "^3.25.76",
-    "dependencies": {
-  // ... other dependencies ...
-  "serve": "^14.2.0"
-}
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@convex-dev/eslint-plugin": "^1.2.2",
